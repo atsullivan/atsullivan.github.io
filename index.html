@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Andrew Sullivan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="landing.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Andrew Sullivan</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">about</a></li>
+            <!-- <li><a href="#about">About</a></li>
+            <li><a href="#philosophy">philosophy</a></li>
+            <li><a href="#skills">skills</a></li> -->
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="no-padding">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+
+
+
+          <div class="col-md-12">
+            <div class="banner">
+              <div class="color-layer-4"></div>
+              <img src="img/banner/home-3.jpg" style="width:100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="intro" id="about">
+              <h1>
+                Hi, my name is Andrew Sullivan.  
+              </h1>
+              <h2>
+                I am a designer/developer living in beautiful Santa Barbara California.  Welcome to my website.
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="extra-section">
+              <img src="img/logo.png" style="width:270px">
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="philosophy-section" id="philosophy">
+              <div class="color-layer-4"></div>
+              <img src="img/water.jpg" style="width:100%">
+              <div class="philosophy-content">
+                <h1>
+                  My Philosophy
+                </h1>
+                <h2>
+                  My philosophy is to create bueatiful and intuitive designs.  I strive to make web design and developement into an artform.  My goal is to make applications that are visually stunning and easy to use.
+                </h2>
+                <a class="btn btn-custom" href="#skills" role="button">See my skills</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" id="skills">
+            <div class="skill"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-css3-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-html5-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-javascript-plain"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-git-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-java-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-python-plain-wordmark"></i></div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill"><i class="devicon-mysql-plain-wordmark"></i></div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
