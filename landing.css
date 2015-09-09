@@ -115,6 +115,7 @@
 	padding-right: 15vw;
 	padding-left: 15vw;
 	background-color: #f0f0f0;
+
 }
 
 
@@ -139,6 +140,15 @@
 	padding-top: 30px;
 	padding-bottom: 20px;
 	padding-left: 30px;
+}
+
+.coming-soon {
+	color: #FF0052;
+}
+
+.coming-soon:hover {
+	text-decoration: none;
+	color: #FF0052;
 }
 
 .portfolio-title {
@@ -322,6 +332,29 @@ hr {
 
 .footer {
 	background-color: #E84545;
+	margin-top: -30px;
+}
+
+.footer > h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: -30px;
+	padding-right: 15vw;
+	padding-left: 15vw;
+	font-family: 'Oranienbaum';
+	font-family: 'Lato';
+
+	/*font-style: italic;*/
+}
+
+.footer > h1 > a {
+	color: white;
+	-webkit-transition: 1s;
+}
+
+.footer > h1 > a:hover {
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .contact-banner {
