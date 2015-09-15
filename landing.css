@@ -11,6 +11,15 @@
 	padding-top: 20px;
 }
 
+.navbar-toggle {
+  border-color: #FF0052;
+  background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+  background: #FF0052;
+}
+
 .navbar .navbar-brand {
 	color: black;
 	font-family: 'Lato', sans-serif;
