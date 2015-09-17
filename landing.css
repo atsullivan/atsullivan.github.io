@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "RissaTypeface";
+  src: url(fonts/RissaTypeface.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Unna";
+  src: url(fonts/Unna-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gidole";
+  src: url(fonts/Gidole-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Pier Sans";
+  src: url(fonts/pier-regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Oranienbaum";
+  src: url(fonts/Oranienbaum.ttf) format("truetype");
+}
+
+
 .no-padding {
      padding: 0;
      margin: 0;
