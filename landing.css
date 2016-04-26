@@ -335,6 +335,14 @@ hr {
 	cursor: pointer;
 }
 
+.instagram {
+	background-color: #125688;
+}
+
+.instagram:hover {
+	background-color: #1a81cb;
+}
+
 .pinterest {
 	background-color: #cb2027;
 }
